@@ -15,28 +15,6 @@
 #   run results please launch the synthesis/implementation runs as needed.
 #
 #*****************************************************************************************
-# NOTE: In order to use this script for source control purposes, please make sure that the
-#       following files are added to the source control system:-
-#
-# 1. This project restoration tcl script (04_real_time_iq_mixer.tcl) that was generated.
-#
-# 2. The following source(s) files that were local or imported into the original project.
-#    (Please see the '$orig_proj_dir' and '$origin_dir' variable setting below at the start of the script)
-#
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/04_real_time_iq_mixer/project/04_real_time_iq_mixer/04_real_time_iq_mixer.srcs/sources_1/new/sdr_ctrl_regs.v"
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/04_real_time_iq_mixer/project/04_real_time_iq_mixer/04_real_time_iq_mixer.srcs/sources_1/new/axis_interleaved_adc_packetizer.v"
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/04_real_time_iq_mixer/project/04_real_time_iq_mixer/04_real_time_iq_mixer.srcs/sources_1/bd/design_1/design_1.bd"
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/04_real_time_iq_mixer/project/04_real_time_iq_mixer/04_real_time_iq_mixer.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp"
-#
-# 3. The following remote source files that were added to the original project:-
-#
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/02_raw_sdr_stream/scripts/fir_decim_32x_16b_LOADED.coe"
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/03_iq_mixer/dsp/fir_cic_comp_5_6_LOADED.coe"
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/03_iq_mixer/hdl/axis_frame_packetizer.v"
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/02_raw_sdr_stream/hdl/axis_adc_packetizer.v"
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/02_raw_sdr_stream/xdc/zmod_sdr.xdc"
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/03_iq_mixer/tb/tb_iq_mixer.sv"
-#
 #*****************************************************************************************
 
 # Check file required for this script exists

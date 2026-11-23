@@ -15,22 +15,6 @@
 #   run results please launch the synthesis/implementation runs as needed.
 #
 #*****************************************************************************************
-# NOTE: In order to use this script for source control purposes, please make sure that the
-#       following files are added to the source control system:-
-#
-# 1. This project restoration tcl script (02_raw_sdr_stream.tcl) that was generated.
-#
-# 2. The following source(s) files that were local or imported into the original project.
-#    (Please see the '$orig_proj_dir' and '$origin_dir' variable setting below at the start of the script)
-#
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/02_raw_sdr_stream/project/02_raw_sdr_stream/02_raw_sdr_stream.srcs/sources_1/bd/design_1/design_1.bd"
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/02_raw_sdr_stream/project/02_raw_sdr_stream/02_raw_sdr_stream.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp"
-#
-# 3. The following remote source files that were added to the original project:-
-#
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/02_raw_sdr_stream/scripts/fir_decim_32x_16b_LOADED.coe"
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/02_raw_sdr_stream/hdl/axis_adc_packetizer.v"
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/02_raw_sdr_stream/xdc/zmod_sdr.xdc"
 #
 #*****************************************************************************************
 

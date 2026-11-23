@@ -15,19 +15,6 @@
 #   run results please launch the synthesis/implementation runs as needed.
 #
 #*****************************************************************************************
-# NOTE: In order to use this script for source control purposes, please make sure that the
-#       following files are added to the source control system:-
-#
-# 1. This project restoration tcl script (00_first_project.tcl) that was generated.
-#
-# 2. The following source(s) files that were local or imported into the original project.
-#    (Please see the '$orig_proj_dir' and '$origin_dir' variable setting below at the start of the script)
-#
-#    "/home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/00_first_project/00_first_project.srcs/sources_1/bd/design_1/design_1.bd"
-#
-# 3. The following remote source files that were added to the original project:-
-#
-#    <none>
 #
 #*****************************************************************************************
 
