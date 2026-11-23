@@ -1,0 +1,161 @@
+#########################################################################################
+##  Project    : Collect of various scripts for working with EDA-tools (ASIC/FPGA/etc) ##
+##  Link       : https://github.com/iDoka/eda-scripts                                  ##
+##  Description: .gitignore                                                            ##
+##  Usage      : just rename or add contain to .gitignore                              ##
+##  License    : MIT                                                                   ##
+#########################################################################################
+
+## log files
+*.log
+*.jou
+*.rpt
+*.vdi
+
+## bitstream
+*.bit
+*.bin
+*.mcs
+*.svf
+*.image
+
+## netlist
+*.edf
+*.edif
+*.vn
+*.vm
+
+## SDF
+*.sdf
+
+## sim dump
+*.vcd
+*.saif
+*.tcf
+*.wdb
+
+## others
+unisims
+
+## C-files
+*.elf
+*.a
+*.sa
+*.so
+*.lib
+
+## dirs
+vivado.cache/
+vivado.hw/
+vivado.ip_user_files/
+vivado.runs/
+vivado.sim/
+
+###### for Xilinx Vivado|ISE
+.Xil/
+.cache/
+fsm_encoding.os
+tab_*/
+webtalk.*
+vivado_pid*.str
+hs_err_pid*
+xelab.*
+xsim.*
+xvlog.*
+*.cache
+*.sim
+*.runs
+*.hw
+*.backup.*
+*.debug
+
+## checkpoint files
+*.dcp
+
+
+# ==========================================
+# AMD / Xilinx Vitis & Vivado Git Ignore
+# ==========================================
+
+# --- Logs, Journals, and Temporary Files ---
+*.log
+*.jou
+*.str
+*.tmp
+*.bak
+
+
+# --- Vitis Classic Workspace & IDE Metadata ---
+.metadata/
+RemoteSystemsTempFiles/
+.recommenders/
+.analytics/
+ide_fws/
+
+# --- Unified Vitis IDE (2023.2+) Workspace/Output Directories ---
+# Ignore build artifacts, generated configurations, and binaries
+*/build/
+*/Bin/
+*/Debug/
+*/Release/
+*/_ide/
+*.elf
+*.bit
+*.xclbin
+
+# --- Hardware / Platform Related ---
+# Ignore the expanded platform folders (regenerated from XSA)
+*.xsa
+# If you prefer to version control the hardware definition (.xsa), 
+# uncomment the line below to ensure it is not tracked:
+# !*.xsa
+
+# --- Vitis HLS specific ---
+# HLS creates massive project folders containing C-simulation and synthesis reports
+*_prj/
+hls_prj/
+.vitis_hls/
+
+
+# --- Vivado 2025.2 Generated Project Bloat ---
+*.gen/
+*.ip_user_files/
+*.ltx
+*.xpr
+*.srcs/sources_1/bd/*/hdl/
+*.srcs/sources_1/bd/*/ip/
+*.srcs/sources_1/bd/*/synth/
+*.srcs/utils_1/
+
+# --- Vitis Unified & BSP Bloat (Any Depth) ---
+**/build/
+**/Debug/
+**/Release/
+**/_ide/
+**/export/
+**/ps7_cortexa9_0/
+**/zynq_fsbl/
+**/freertos*/
+**/bsp/
+**/.theia/
+**/logs/
+
+# --- Python & Misc ---
+.venv/
+venv/
+*.pyc
+Thumbs.db
+
+
+# --- OS & IDE Specific (Optional but recommended) ---
+.vscode/
+.idea/
+.DS_Store
+Thmubs.db
+__pycache__/
+
+*data/
+*_OLD/
+*_archive/
+*_OLD*
+

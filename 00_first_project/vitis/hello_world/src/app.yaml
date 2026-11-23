@@ -1,0 +1,4 @@
+domain_path: /home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/00_first_project/vitis/platform/export/platform/sw/standalone_ps7_cortexa9_0
+app_src_dir: /home/iberrios/amd_vivado/2025.2/Vitis/data/embeddedsw/lib/sw_apps/hello_world
+template: hello_world
+lang: c
