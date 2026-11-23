@@ -1,0 +1,135 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.654045",
+   "Default View_TopLeft":"-235,-228",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 19 -x 6450 -y 60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 19 -x 6450 -y 80 -defaultsOSRD
+preplace port CDCE_IIC_0 -pg 1 -lvl 19 -x 6450 -y 700 -defaultsOSRD
+preplace port port-id_DcoClkIn_0 -pg 1 -lvl 0 -x 0 -y 880 -defaultsOSRD
+preplace port port-id_aZmodSync_0 -pg 1 -lvl 19 -x 6450 -y 860 -defaultsOSRD
+preplace port port-id_sZmodSDR_SDIO_0 -pg 1 -lvl 19 -x 6450 -y 880 -defaultsOSRD
+preplace port port-id_sZmodSDR_CS_0 -pg 1 -lvl 19 -x 6450 -y 900 -defaultsOSRD
+preplace port port-id_sZmodSDR_Sclk_0 -pg 1 -lvl 19 -x 6450 -y 920 -defaultsOSRD
+preplace port port-id_CG_InputClk_p_0 -pg 1 -lvl 19 -x 6450 -y 940 -defaultsOSRD
+preplace port port-id_CG_InputClk_n_0 -pg 1 -lvl 19 -x 6450 -y 960 -defaultsOSRD
+preplace port port-id_aREFSEL_0 -pg 1 -lvl 19 -x 6450 -y 980 -defaultsOSRD
+preplace port port-id_aHW_SW_CTRL_0 -pg 1 -lvl 19 -x 6450 -y 1000 -defaultsOSRD
+preplace port port-id_sPDNout_n_0 -pg 1 -lvl 19 -x 6450 -y 1020 -defaultsOSRD
+preplace portBus diZmodSDR_Data_0 -pg 1 -lvl 0 -x 0 -y 900 -defaultsOSRD
+preplace portBus GPIO1 -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace portBus GPIO4 -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 18 -x 6090 -y 140 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 16 -x 5270 -y 410 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -x 610 -y 460 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 220 -y 310 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 17 -x 5640 -y 470 -defaultsOSRD
+preplace inst ZmodSDRController_0 -pg 1 -lvl 18 -x 6090 -y 890 -defaultsOSRD
+preplace inst zmod_sdr_pll_logic -pg 1 -lvl 17 -x 5640 -y 180 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 220 -y 620 -defaultsOSRD
+preplace inst proc_sys_reset_122_88M -pg 1 -lvl 2 -x 610 -y 750 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 220 -y 730 -defaultsOSRD
+preplace inst zmod_cdc_fifo -pg 1 -lvl 3 -x 1000 -y 750 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 15 -x 4950 -y 410 -defaultsOSRD
+preplace inst ch_1_2_splitter -pg 1 -lvl 4 -x 1360 -y 750 -defaultsOSRD
+preplace inst ch1_nco -pg 1 -lvl 4 -x 1360 -y 300 -defaultsOSRD
+preplace inst ch2_nco -pg 1 -lvl 4 -x 1360 -y 540 -defaultsOSRD
+preplace inst sdr_controller -pg 1 -lvl 3 -x 1000 -y 500 -defaultsOSRD
+preplace inst ch1_mixer -pg 1 -lvl 5 -x 1680 -y 760 -defaultsOSRD
+preplace inst ch2_mixer -pg 1 -lvl 5 -x 1680 -y 540 -defaultsOSRD
+preplace inst ch1_i_cic -pg 1 -lvl 7 -x 2400 -y 450 -defaultsOSRD
+preplace inst ch1_iq_splitter -pg 1 -lvl 6 -x 2010 -y 750 -defaultsOSRD
+preplace inst ch2_iq_splitter -pg 1 -lvl 6 -x 2010 -y 290 -defaultsOSRD
+preplace inst axis_broadcaster_0 -pg 1 -lvl 6 -x 2010 -y 480 -defaultsOSRD
+preplace inst ch1_q_cic -pg 1 -lvl 7 -x 2400 -y 750 -defaultsOSRD
+preplace inst ch2_i_cic -pg 1 -lvl 7 -x 2400 -y 100 -defaultsOSRD
+preplace inst ch2_q_cic -pg 1 -lvl 7 -x 2400 -y 290 -defaultsOSRD
+preplace inst fir_compiler_0 -pg 1 -lvl 9 -x 3090 -y 420 -defaultsOSRD
+preplace inst axis_combiner_1 -pg 1 -lvl 8 -x 2780 -y 410 -defaultsOSRD
+preplace inst ch1_ch2_interleaver -pg 1 -lvl 10 -x 3360 -y 440 -defaultsOSRD
+preplace inst iq_splitter -pg 1 -lvl 11 -x 3640 -y 460 -defaultsOSRD
+preplace inst i_float_converter -pg 1 -lvl 12 -x 3990 -y 400 -defaultsOSRD
+preplace inst q_float_converter -pg 1 -lvl 12 -x 3990 -y 540 -defaultsOSRD
+preplace inst iq_combiner -pg 1 -lvl 13 -x 4300 -y 430 -defaultsOSRD
+preplace inst interleaved_packetizer -pg 1 -lvl 14 -x 4650 -y 470 -defaultsOSRD
+preplace netloc DcoClkIn_0_1 1 0 18 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 NJ 880 5800J
+preplace netloc Net 1 18 1 6330J 880n
+preplace netloc Op1_0_1 1 0 17 NJ 180 400J 160 NJ 160 NJ 160 NJ 160 NJ 160 2250J 180 2550J 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ
+preplace netloc Op2_0_1 1 0 17 20J 190 NJ 190 800J 180 NJ 180 NJ 180 NJ 180 2240J 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ
+preplace netloc ZmodSDRController_0_CG_InputClk_n 1 18 1 6370J 960n
+preplace netloc ZmodSDRController_0_CG_InputClk_p 1 18 1 6360J 940n
+preplace netloc ZmodSDRController_0_ZmodDcoClkOut 1 0 19 40 790 400J 650 800 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 6330
+preplace netloc ZmodSDRController_0_aHW_SW_CTRL 1 18 1 6390J 1000n
+preplace netloc ZmodSDRController_0_aREFSEL 1 18 1 6380J 980n
+preplace netloc ZmodSDRController_0_aZmodSync 1 18 1 6320J 860n
+preplace netloc ZmodSDRController_0_sPDNout_n 1 18 1 6400J 1020n
+preplace netloc ZmodSDRController_0_sZmodDcoPLL_Lock 1 2 17 830 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 6340
+preplace netloc ZmodSDRController_0_sZmodSDR_CS 1 18 1 6340J 900n
+preplace netloc ZmodSDRController_0_sZmodSDR_Sclk 1 18 1 6350J 920n
+preplace netloc axi_dma_0_s2mm_introut 1 16 2 5460J 260 5850
+preplace netloc axi_dma_0_s2mm_prmry_reset_out_n 1 2 15 840 190 NJ 190 NJ 190 NJ 190 2210J 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 5450
+preplace netloc clk_wiz_0_clk_out1 1 1 17 430 550 810 400 1200 450 1540 450 1830 170 2230 550 2610 520 2940 500 3240 520 3470 550 3840 330 4140 340 4480 340 4810 320 5080 530 5480 270 5840
+preplace netloc clk_wiz_0_locked 1 1 1 410 630n
+preplace netloc diZmodSDR_Data_0_1 1 0 18 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 5790J
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 15 820 840 1200 840 NJ 840 1840 380 2210J 530 2620 530 NJ 530 3250 530 3480 540 3850J 470 4140 520 4470 370 4830 330 5070 520 5490
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 19 30 800 420J 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 5860 620 6340
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 19 40 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 2200J 560 NJ 560 NJ 560 NJ 560 NJ 560 3820J 290 NJ 290 NJ 290 NJ 290 NJ 290 NJ 290 NJ 290 6320
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 17 400 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 5470J 280 5850J
+preplace netloc sdr_controller_pkt_enable 1 3 15 1170 370 NJ 370 NJ 370 NJ 370 2550J 290 NJ 290 NJ 290 NJ 290 3810J 300 NJ 300 4490 300 NJ 300 NJ 300 NJ 300 5820J
+preplace netloc sdr_controller_pkt_len 1 3 11 1190 390 NJ 390 NJ 390 2180J 540 2570J 300 NJ 300 NJ 300 NJ 300 3800J 310 NJ 310 4460J
+preplace netloc util_vector_logic_0_Res 1 17 1 5810 180n
+preplace netloc xlconstant_0_dout 1 1 1 NJ 730
+preplace netloc ZmodSDRController_0_CDCE_IIC 1 18 1 6350J 700n
+preplace netloc ZmodSDRController_0_DataStream 1 2 17 840 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 6320
+preplace netloc axi_dma_0_M_AXI_S2MM 1 16 1 N 400
+preplace netloc axi_dma_0_M_AXI_SG 1 16 1 N 380
+preplace netloc axi_mem_intercon_M00_AXI 1 17 1 5830 120n
+preplace netloc axi_smc_M00_AXI 1 2 14 790J 10 NJ 10 NJ 10 NJ 10 NJ 10 NJ 10 NJ 10 NJ 10 NJ 10 NJ 10 NJ 10 NJ 10 NJ 10 5090
+preplace netloc axi_smc_M01_AXI 1 2 1 N 470
+preplace netloc axis_broadcaster_0_M00_AXIS 1 6 1 N 450
+preplace netloc axis_broadcaster_0_M01_AXIS 1 6 1 2170 470n
+preplace netloc axis_broadcaster_0_M02_AXIS 1 6 1 2190 100n
+preplace netloc axis_broadcaster_0_M03_AXIS 1 6 1 2220 290n
+preplace netloc axis_combiner_1_M_AXIS 1 8 1 N 410
+preplace netloc axis_data_fifo_0_M_AXIS 1 15 1 5090 380n
+preplace netloc axis_interleaved_adc_0_m_axis 1 14 1 4820 390n
+preplace netloc ch1_ch2_interleaver_M_AXIS 1 10 1 N 440
+preplace netloc ch1_i_cic_M_AXIS_DATA 1 7 1 2580 360n
+preplace netloc ch1_iq_splitter_M00_AXIS 1 6 1 2240 430n
+preplace netloc ch1_iq_splitter_M01_AXIS 1 6 1 2250 730n
+preplace netloc ch1_mixer_M_AXIS_DOUT 1 5 1 1850 730n
+preplace netloc ch1_nco_M_AXIS_DATA 1 4 1 1530 300n
+preplace netloc ch1_q_cic_M_AXIS_DATA 1 7 1 2600 380n
+preplace netloc ch2_i_cic_M_AXIS_DATA 1 7 1 2590 90n
+preplace netloc ch2_iq_splitter_M00_AXIS 1 6 1 2170 80n
+preplace netloc ch2_iq_splitter_M01_AXIS 1 6 1 2210 270n
+preplace netloc ch2_mixer_M_AXIS_DOUT 1 5 1 1820 270n
+preplace netloc ch2_nco_M_AXIS_DATA 1 4 1 N 540
+preplace netloc ch2_q_cic_M_AXIS_DATA 1 7 1 2560 280n
+preplace netloc ch_1_2_splitter_M00_AXIS 1 4 1 N 740
+preplace netloc ch_1_2_splitter_M01_AXIS 1 4 1 1520 520n
+preplace netloc fir_compiler_0_M_AXIS_DATA 1 9 1 N 420
+preplace netloc i_float_converter_M_AXIS_RESULT 1 12 1 N 400
+preplace netloc iq_combiner_M_AXIS 1 13 1 N 430
+preplace netloc iq_splitter_M00_AXIS 1 11 1 3830 390n
+preplace netloc iq_splitter_M01_AXIS 1 11 1 3800 470n
+preplace netloc processing_system7_0_DDR 1 18 1 NJ 60
+preplace netloc processing_system7_0_FIXED_IO 1 18 1 NJ 80
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 18 430 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 5860J 280 6350
+preplace netloc q_float_converter_M_AXIS_RESULT 1 12 1 4130 420n
+preplace netloc sdr_ctrl_regs_0_m_axis_cic 1 3 3 N 460 NJ 460 NJ
+preplace netloc sdr_ctrl_regs_0_m_axis_dds1 1 3 1 1160 290n
+preplace netloc sdr_ctrl_regs_0_m_axis_dds2 1 3 1 1180 500n
+preplace netloc zmod_cdc_fifo_M_AXIS 1 3 1 1160 730n
+levelinfo -pg 1 0 220 610 1000 1360 1680 2010 2400 2780 3090 3360 3640 3990 4300 4650 4950 5270 5640 6090 6450
+pagesize -pg 1 -db -bbox -sgen -240 0 6640 1140
+"
+}
+{
+   "da_axi4_cnt":"9",
+   "da_board_cnt":"3",
+   "da_clkrst_cnt":"6",
+   "da_ps7_cnt":"2"
+}

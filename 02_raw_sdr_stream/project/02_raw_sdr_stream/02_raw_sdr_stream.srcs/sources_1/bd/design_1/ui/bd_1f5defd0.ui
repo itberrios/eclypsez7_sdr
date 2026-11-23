@@ -1,0 +1,103 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.48139",
+   "Default View_TopLeft":"660,521",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 13 -x 4640 -y 500 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 13 -x 4640 -y 520 -defaultsOSRD
+preplace port CDCE_IIC_0 -pg 1 -lvl 13 -x 4640 -y 810 -defaultsOSRD
+preplace port port-id_DcoClkIn_0 -pg 1 -lvl 0 -x -10 -y 930 -defaultsOSRD
+preplace port port-id_aZmodSync_0 -pg 1 -lvl 13 -x 4640 -y 970 -defaultsOSRD
+preplace port port-id_sZmodSDR_SDIO_0 -pg 1 -lvl 13 -x 4640 -y 990 -defaultsOSRD
+preplace port port-id_sZmodSDR_CS_0 -pg 1 -lvl 13 -x 4640 -y 1010 -defaultsOSRD
+preplace port port-id_sZmodSDR_Sclk_0 -pg 1 -lvl 13 -x 4640 -y 1030 -defaultsOSRD
+preplace port port-id_CG_InputClk_p_0 -pg 1 -lvl 13 -x 4640 -y 1050 -defaultsOSRD
+preplace port port-id_CG_InputClk_n_0 -pg 1 -lvl 13 -x 4640 -y 1070 -defaultsOSRD
+preplace port port-id_aREFSEL_0 -pg 1 -lvl 13 -x 4640 -y 1090 -defaultsOSRD
+preplace port port-id_aHW_SW_CTRL_0 -pg 1 -lvl 13 -x 4640 -y 1110 -defaultsOSRD
+preplace port port-id_sPDNout_n_0 -pg 1 -lvl 13 -x 4640 -y 1130 -defaultsOSRD
+preplace portBus diZmodSDR_Data_0 -pg 1 -lvl 0 -x -10 -y 1190 -defaultsOSRD
+preplace portBus GPIO1 -pg 1 -lvl 0 -x -10 -y 650 -defaultsOSRD
+preplace portBus GPIO4 -pg 1 -lvl 0 -x -10 -y 670 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 12 -x 4370 -y 580 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 10 -x 3550 -y 110 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 9 -x 3200 -y 290 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 7 -x 2480 -y 840 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 11 -x 3920 -y 200 -defaultsOSRD
+preplace inst ZmodSDRController_0 -pg 1 -lvl 12 -x 4370 -y 970 -defaultsOSRD
+preplace inst zmod_sdr_pll_logic -pg 1 -lvl 11 -x 3920 -y 660 -defaultsOSRD
+preplace inst enable_logic -pg 1 -lvl 7 -x 2480 -y 360 -defaultsOSRD
+preplace inst config_init_gpio -pg 1 -lvl 10 -x 3550 -y 320 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 130 -y 1120 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 450 -y 1090 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 130 -y 990 -defaultsOSRD
+preplace inst zmod_cdc_fifo -pg 1 -lvl 2 -x 450 -y 840 -defaultsOSRD
+preplace inst post_proc_cdc_fifo -pg 1 -lvl 7 -x 2480 -y 1050 -defaultsOSRD
+preplace inst axis_adc_packetizer_0 -pg 1 -lvl 8 -x 2860 -y 300 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 9 -x 3200 -y 120 -defaultsOSRD
+preplace inst ch_1_2_splitter -pg 1 -lvl 3 -x 840 -y 880 -defaultsOSRD
+preplace inst ch1_float_conversion -pg 1 -lvl 5 -x 1690 -y 830 -defaultsOSRD
+preplace inst ch2_float_conversion -pg 1 -lvl 5 -x 1690 -y 1010 -defaultsOSRD
+preplace inst axis_combiner_0 -pg 1 -lvl 6 -x 2080 -y 990 -defaultsOSRD
+preplace inst ch1_fir_decimator -pg 1 -lvl 4 -x 1260 -y 850 -defaultsOSRD
+preplace inst ch2_fir_decimator -pg 1 -lvl 4 -x 1260 -y 1050 -defaultsOSRD
+preplace netloc DcoClkIn_0_1 1 0 12 NJ 930 NJ 930 630J 790 1110J 920 1410J 900 NJ 900 2240J 940 2670J 990 NJ 990 NJ 990 NJ 990 NJ
+preplace netloc Net 1 12 1 NJ 990
+preplace netloc Op1_0_1 1 0 11 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ
+preplace netloc Op2_0_1 1 0 11 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ
+preplace netloc ZmodSDRController_0_CG_InputClk_n 1 12 1 NJ 1070
+preplace netloc ZmodSDRController_0_CG_InputClk_p 1 12 1 NJ 1050
+preplace netloc ZmodSDRController_0_ZmodDcoClkOut 1 0 13 20 1050 250 970 NJ 970 NJ 970 1410J 1100 NJ 1100 2260 960 2660J 1000 NJ 1000 NJ 1000 NJ 1000 4080J 1190 4610
+preplace netloc ZmodSDRController_0_aHW_SW_CTRL 1 12 1 NJ 1110
+preplace netloc ZmodSDRController_0_aREFSEL 1 12 1 NJ 1090
+preplace netloc ZmodSDRController_0_aZmodSync 1 12 1 NJ 970
+preplace netloc ZmodSDRController_0_sPDNout_n 1 12 1 NJ 1130
+preplace netloc ZmodSDRController_0_sZmodDcoPLL_Lock 1 1 12 250 720 NJ 720 NJ 720 NJ 720 NJ 720 NJ 720 NJ 720 NJ 720 NJ 720 3770J 740 NJ 740 4620
+preplace netloc ZmodSDRController_0_sZmodSDR_CS 1 12 1 NJ 1010
+preplace netloc ZmodSDRController_0_sZmodSDR_Sclk 1 12 1 NJ 1030
+preplace netloc axi_dma_0_s2mm_introut 1 10 2 3750 10 4140J
+preplace netloc axi_dma_0_s2mm_prmry_reset_out_n 1 6 5 2300 430 NJ 430 NJ 430 NJ 430 3740
+preplace netloc axi_gpio_0_gpio_io_o 1 6 5 2290 180 NJ 180 3040J 200 3350J 220 3730
+preplace netloc clk_wiz_0_clk_out1 1 1 5 270 940 670 800 1090 930 1540 1090 1840
+preplace netloc clk_wiz_0_locked 1 1 1 N 1130
+preplace netloc config_init_gpio_gpio2_io_o 1 7 4 2700 410 NJ 410 NJ 410 3730
+preplace netloc diZmodSDR_Data_0_1 1 0 12 NJ 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 4070J
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 5 680 980 NJ 980 1420J 1080 1920 1080 2270J
+preplace netloc processing_system7_0_FCLK_CLK0 1 6 7 2280 280 2670 190 3050 40 3360 230 3760 20 4120 720 4610
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 6 7 2290 740 NJ 740 NJ 740 NJ 740 3730J 750 NJ 750 4600
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 7 5 2660 200 3030 210 3370 420 3770 430 4110J
+preplace netloc util_vector_logic_0_Res 1 11 1 4090 660n
+preplace netloc util_vector_logic_1_Res 1 7 5 2690 590 NJ 590 NJ 590 NJ 590 4100J
+preplace netloc xlconstant_0_dout 1 1 1 260J 990n
+preplace netloc ZmodSDRController_0_CDCE_IIC 1 12 1 NJ 810
+preplace netloc ZmodSDRController_0_DataStream 1 1 12 270 730 NJ 730 NJ 730 NJ 730 NJ 730 NJ 730 NJ 730 NJ 730 NJ 730 NJ 730 NJ 730 4610
+preplace netloc axi_dma_0_M_AXI_S2MM 1 10 1 N 100
+preplace netloc axi_dma_0_M_AXI_SG 1 10 1 N 80
+preplace netloc axi_mem_intercon_M00_AXI 1 11 1 4130 200n
+preplace netloc axi_smc_M00_AXI 1 9 1 3340 60n
+preplace netloc axi_smc_M01_AXI 1 9 1 N 300
+preplace netloc axis_adc_packetizer_0_m_axis 1 8 1 3020 100n
+preplace netloc axis_combiner_0_M_AXIS 1 6 1 2240 990n
+preplace netloc axis_data_fifo_0_M_AXIS 1 9 1 3350 80n
+preplace netloc ch1_fir_decimator_M_AXIS_DATA 1 4 1 1410 820n
+preplace netloc ch1_float_conversion_M_AXIS_RESULT 1 5 1 1830 830n
+preplace netloc ch2_fir_decimator_M_AXIS_DATA 1 4 1 1550 1000n
+preplace netloc ch2_float_conversion_M_AXIS_RESULT 1 5 1 1830 980n
+preplace netloc ch_1_2_splitter_M00_AXIS 1 3 1 1100 840n
+preplace netloc ch_1_2_splitter_M01_AXIS 1 3 1 1000 890n
+preplace netloc post_proc_cdc_fifo_M_AXIS 1 7 1 2680 260n
+preplace netloc processing_system7_0_DDR 1 12 1 NJ 500
+preplace netloc processing_system7_0_FIXED_IO 1 12 1 NJ 520
+preplace netloc processing_system7_0_M_AXI_GP0 1 8 5 3060 440 NJ 440 NJ 440 NJ 440 4610
+preplace netloc zmod_cdc_fifo_M_AXIS 1 2 1 640 840n
+levelinfo -pg 1 -10 130 450 840 1260 1690 2080 2480 2860 3200 3550 3920 4370 4640
+pagesize -pg 1 -db -bbox -sgen -250 0 4890 1270
+"
+}
+{
+   "da_axi4_cnt":"7",
+   "da_board_cnt":"3",
+   "da_ps7_cnt":"2"
+}

@@ -1,0 +1,4 @@
+domain_path: /home/iberrios/Documents/learning/fpga/eclypsez7_sdr/eclypsez7_sdr/04_real_time_iq_mixer/vitis/udp_client_platform/export/udp_client_platform/sw/freertos_ps7_cortexa9_0
+app_src_dir: /home/iberrios/amd_vivado/2025.2/Vitis/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client
+template: freertos_lwip_udp_perf_client
+lang: c
